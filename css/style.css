@@ -117,6 +117,15 @@ a {
 		margin-right: 12px;
 	}
 
+	.col {
+		display: inline-block;
+		width: 50%;
+		/* CSS basics covered early on that I overlooked. Answer was found after realizing I only knew the display and width variables. */
+		margin-right: -4px;		
+		vertical-align: top;	
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 }
 
 
